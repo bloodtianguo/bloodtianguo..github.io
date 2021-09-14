@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0c84b1"],{"53eb":function(e,n,c){"use strict";c.r(n);var t=function(){var e=this,n=e.$createElement,c=e._self._c||n;return c("div",[e._v(" 投掷点位 ")])},u=[],r={},s=r,a=c("2877"),i=Object(a["a"])(s,t,u,!1,null,"7fb8c260",null);n["default"]=i.exports}}]);
