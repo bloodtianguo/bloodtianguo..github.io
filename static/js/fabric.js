@@ -28078,6 +28078,7 @@ fabric.Sprite = fabric.util.createClass(fabric.Image, {
   createSpriteImages: function() {
     this.spriteImages = [ ];
     console.log("函数中的",this._element);
+    this._element.crossOrigin = "anonymous";
     var steps = this._element.width / this.spriteWidth;
     for (var i = 0; i < steps; i++) {
       this.createSpriteImage(i);
@@ -28093,7 +28094,6 @@ fabric.Sprite = fabric.util.createClass(fabric.Image, {
     tmpImg.src = dataURL;
     this.spriteImages.push(tmpImg);
   },
-
   _render: function(ctx) {
     ctx.drawImage(
       this.spriteImages[this.spriteIndex],
